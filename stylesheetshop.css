@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,800;1,900&display=swap');
+body{
+	margin:0px;
+	padding:0px;
+	font-family: poppins;
+    background-color: #ffffff;
+	}
+
+*{
+		box-sizing: border-box;
+	}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+	padding:0 20px;
+	color: black;
+	transition: 0.3sease;
+	text-align:right;
+	
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+	color: red;
+   	
+}
+
+
+.right-menu a{
+	margin: 0px 10px;
+	font-size: 1.2rem;
+	color: rgba(0,0,0,0.7);
+	
+}
+
+
+.right-menu  a img:hover{
+	color:red;
+}
+
+.navbar-brand {
+      
+	  font-weight: 1000;
+
+}
+
+.navbar-toggler:hover,
+.navbar-toggler{
+	background-color:lightblue;
+	border: none;
+	color:red;
+	outline:none;	
+}
+
+
+
+.pagination .page-link:hover{
+		background: coral;
+		
+}
+
+.pagination a{
+	color: #000;
+}
+
+
+footer{
+	background-color:#222222;
+	
+}
+
+footer h5{
+	color:#D8D8D8;
+	font-weight:700;
+	font-size:1.2rem;
+}
+
+footer h6{
+	color:#D8D8D8;
+	font-weight:700;
+	font-size:1.2rem;
+}
+footer li{
+	padding-bottom:4px;
+	
+}
+
+footer li a{
+	font-size:0.8rem;
+	color:#999;
+}
+
+footer li a:hover{
+      color:#D8D8D8;
+}
+
+
+footer p{
+	color:#999;
+	font-size:0.8rem;
+	
+}

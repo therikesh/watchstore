@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,800;1,900&display=swap');
+body{
+	margin:0px;
+	padding:0px;
+	font-family: poppins;
+    background-color: #ffffff;
+	}
+
+*{
+		box-sizing: border-box;
+	}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+	padding:0 20px;
+	color: black;
+	transition: 0.3sease;
+	text-align:right;
+	
+
+}
+
+
+
+	
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+	color: red;
+   	
+}
+
+
+.right-menu a{
+	margin: 0px 10px;
+	font-size: 1.2rem;
+	color: rgba(0,0,0,0.7);
+	
+}
+
+
+.right-menu  a img:hover{
+	color:red;
+}
+
+.navbar-brand {
+      
+	  font-weight: 1000;
+
+}
+
+.navbar-toggler:hover,
+.navbar-toggler{
+	background-color:lightblue;
+	border: none;
+	color:red;
+	outline:none;	
+}
+
+.carousel-caption h5{
+	color: coral;
+}
+
+.details button{
+	text-align:center;
+}
+
+.card-group{
+	height:200px;
+}
+
+.card-body{
+	text-align:center;
+}
+
+.card{
+	cursor:pointer;
+	background-color: white;
+
+}
+
+.card-body button:hover{
+	background-color:coral;
+	font-weight:700;
+	outline: none;
+    border:none;
+}
+
+#Featured .product {
+	height:100px;
+	width:200px;
+}
+
+hr{
+	width:100px;
+	height:10px;
+	background-color:red;
+}
+
+.product  button:hover{
+	background-color: coral;
+	border: none;
+	outline:none;	
+	font-size:20px;
+	transform:translateY(20px);
+	opacity:0px;
+
+}
+
+	
+.product .img-fluid:hover{
+	cursor:pointer;
+	transform: translateY(-5px);
+	opacity:0.7;
+	transform:translateY(5px);
+
+}
+
+
+.gallery .controls {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  list-style: none;
+  
+}
+.gallery .controls .btn{
+	margin:1rem;
+	line-height:2rem;
+	text-align:center;
+	box-shadow: 0.3rem .2rem black;
+}
+ 
+.gallery .controls .btn.button-active{
+	background: lightblue;
+}
+
+.gallery .heading{
+	text-align: center;
+	color: red;
+	
+}
+.gallery .controls .btn:hover {
+	background-color:red;
+}
+
+
+	 
+	 
+	 div.Box1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.Box1:hover {
+  border: 1px solid #777;
+}
+
+div.Box1 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.Box1 button:hover{
+	background-color:coral;
+}
+
+
+footer{
+	background-color:#222222;
+	
+}
+
+footer h5{
+	color:#D8D8D8;
+	font-weight:700;
+	font-size:1.2rem;
+}
+
+footer h6{
+	color:#D8D8D8;
+	font-weight:700;
+	font-size:1.2rem;
+}
+footer li{
+	padding-bottom:4px;
+	
+}
+
+footer li a{
+	font-size:0.8rem;
+	color:#999;
+}
+
+footer li a:hover{
+      color:#D8D8D8;
+}
+
+
+footer p{
+	color:#999;
+	font-size:0.8rem;
+	
+}
